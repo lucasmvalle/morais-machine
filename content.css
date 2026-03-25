@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    background-color: rgb(29, 29, 29);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    box-shadow: 0 0 25px #43e97b;
+    border: 2px solid #43e97b;
+}
+.tittle {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px;
+    color: #43e97b;
+    text-shadow: 0 0 7px #43e97b;
+}
+input {
+    border: 2px solid #43e97b;
+    border-radius: 30px;
+    color: #43e97b;
+    text-decoration: none;
+    background-color: transparent;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+input:focus {
+    box-shadow: 0 0 5px #43e97b;
+    outline: #43e97b;
+}
+.btn {
+    background-color: #43e97b;
+    color: black;
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+}
+.btn:hover {
+    cursor: pointer;
+    color: #43e97b;
+    background-color: rgb(29, 29, 29);
+    border: 1px solid #43e97b;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 0 5px #43e97b;
+    
+}
+.resultado {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    color: #43e97b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#div_output {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 20px;
+}
+
+#div_output2 {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 20px;
+}
+#div_output3 {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 20px;
+}
+#div_output:hover {
+    transform: translateY(-10px);
+    border: 2px solid #43e97b;
+    border-radius: 20px;
+}
+#div_output2:hover {
+    transform: translateY(-10px);
+    border: 2px solid #43e97b;
+    border-radius: 20px;
+}
+#div_output3:hover {
+    transform: translateY(-10px);
+    border: 2px solid #43e97b;
+    border-radius: 20px;
+}
